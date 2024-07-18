@@ -1,0 +1,7 @@
+echo "# prova-magazzino" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fabio1600/prova-magazzino.git
+git push -u origin main
